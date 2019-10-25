@@ -5,6 +5,6 @@ Since childhood, I have been very interested in problem solving and maths. At 15
 
 After high school, I ended up in Tampere to study Information and Knowledge Management to Tampere University of Tampere (now part of Tampere University). More about the program in Finnish on [Tuni's program guide on Information and Knowledge Management](https://www.tuni.fi/fi/tule-opiskelemaan/tietojohtaminen-teknis-taloudellinen-koulutus). I am finishing my studies in Summer 2020.
 
-In the university, I got very interested in data science and machine learning. I have developed my skills on university classes and in my work at (Seravo)[https://seravo.com). 
+In the university, I got very interested in data science and machine learning. I have developed my skills on university classes and in my work at [Seravo](https://seravo.com). 
 
 Also, check out the [CV]({filename}CV.md).
