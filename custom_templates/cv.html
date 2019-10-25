@@ -1,0 +1,47 @@
+{% extends 'page.html' %}
+{% block content %}
+<!-- Lots of this is borrowed from https://github.com/suheb/resume/blob/master/templates/includes/experience.html. Great stuff :) -->
+<article class="single cv">
+  <header>
+    <h1 id="cv">CV</h1>
+  </header>
+  <div>
+    <h2>Education</h2>
+    {% for e in EDUCATION %}
+    <div class="cv_item">
+      <div class="upper_row">
+        <h3 class="upper_title">{{ e['title'] }}</h3>
+        <div class="upper_time">{{ e['time'] }}</div>
+      </div>
+      <p><i>{{ e['organization'] }}</i><br>
+         {{ e['description'] }}
+      </p>
+    </div>
+    {% endfor %}
+    <h2>Work</h2>
+    {% for w in WORK %}
+    <div class="cv_item">
+      <div class="upper_row">
+        <h3 class="upper_title">{{  w['title'] }}</h3>
+        <div class="upper_time">{{ w['time'] }}</div>
+      </div>
+      <p><i>{{ w['organization'] }}</i><br>
+         {{ w['description'] }}
+      </p>
+    </div>
+    {% endfor %}
+    <h2>IT Skills</h2>
+    {% for i in IT_SKILLS %}
+    <div class="cv_item">
+      <div class="upper_row">
+        <h3 class="upper_title">{{ i['title'] }}</h3>
+        <div class="upper_stars">{{ "\U00002606"*i['stars'] }}</div>
+      </div>
+      <p>
+         {{ i['description'] }}
+      </p>
+    </div>
+    {% endfor %}
+  </div>
+</article>
+{% endblock content %}

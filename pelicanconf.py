@@ -47,4 +47,117 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True 
+
+# Allow overriding of Theme templates
+THEME_TEMPLATES_OVERRIDES = ['custom_templates']
+
+STATIC_PATHS = ['css', 'images']
+
+EXTRA_PATH_METADATA = {
+    'css/custom.css': {'path':'css/custom.css'}
+}
+
+CUSTOM_CSS = 'css/custom.css'
+
+DISABLE_URL_HASH=True
+
 THEME='Flex'
+
+# For the CV
+
+EDUCATION = [{
+        'title':'Civil Engineer',
+        'time':'2018 - (Ongoing)',
+        'organization':'Tampere University',
+        'description':'1st Major: Information management and systems<br>2nd Major: Information analytics<br>Completed: 272 credits / 314 credits',
+    },
+    {
+        'title':'Bachelor of Science (Technology)',
+        'time':'2018',
+        'organization':'Tampere University of Technology',
+        'description':'Bachelor\'s Thesis: Data Analytics in Accordance with the European Union\'s General Data Protection Regulation<br>Major: Information and Knowledge Management<br>Minor: Software systems',
+    },
+    {
+        'title':'Secondary School Graduate',
+        'time':'2012',
+        'organization':'Parolan Lukio',
+        'description':'',
+    },
+]
+
+WORK = [{
+        'title':'Course Assistant',
+        'time':'2019 -',
+        'organization':'Tampere University',
+        'description':'Working as a course assistant on course: Basics for Business Data Analytics.'
+    },
+    {
+        'title':'Network Service Specialist',
+        'time':'2017 -',
+        'organization':'Seravo Oy',
+        'description':'Developing internal tools, solving customers\' technical problems, customer service, data analytics, cheering people up'
+    },
+    {
+        'title':'Conscientious Man',
+        'time':'2018',
+        'organization':'The Summer University of Tampere',
+        'description':'Working as a course assistant and assisting staff with IT problems.'
+    },
+]
+
+IT_SKILLS = [{
+        'title':'Python',
+        'stars':5,
+        'description':'Python is my go-to language after Finnish and English. I am familiar with the following libraries: numpy, scipy, pandas, scikit-learn, keras, matplotlib, reguests, beautifulsoup3, django and flask among others. I have used Python on courses, in my job and with my hobby projects.'
+    },
+    {
+        'title':'R',
+        'stars':4,
+        'description':'I started using R on a class of statistics. Lately, I have been learning tidyverse (especially dplyer and ggplot2). I also enjoy writing my hobby data science documents in Rmarkdown.'
+    },
+    {
+        'title':'Ruby',
+        'stars':4,
+        'description':'Ruby is my main language at my current job at Seravo. I know the basics of the language and have a love-hate relationship with it.'
+    },
+    {
+        'title':'C++',
+        'stars':3,
+        'description':'I have used C++ mostly on university courses. For example, Data Structures and Algorithms -course was done using C++, which was very fun!'
+    },
+    {
+        'title':'Matlab',
+        'stars':3,
+        'description':'I have used Matlab on several mathematics, signal processing and machine learning courses.'
+    },
+    {
+        'title':'Haskell',
+        'stars':3,
+        'description':'I have tried to learn Haskell on my free time just because it’s hard. Lately, I attended a course of Functional Programming, which involved programming with Haskell. I think that Haskell is fun and challenging.'
+    },
+    {
+        'title':'PHP',
+        'stars':3,
+        'description':'Since I am working in a company, which hosts WordPress servers, I obviously know PHP. It is not my favourite nor my strength, but I know how to write simple programs and modify existing code.'
+    },
+    {
+        'title':'SQL',
+        'stars':3,
+        'description':'I know the basic syntax of SQL. I have used SQL on courses and in my job.'
+    },
+    {
+        'title':'HTML, CSS, JS',
+        'stars':3,
+        'description':'These are not particularly my expertise, but I think that every programmer should no some HTML, CSS and Javascript. I confont problems with these in my job, since I occasionally solve problems with websites.'
+    },
+    {
+        'title':'Git',
+        'stars':5,
+        'description':'I am quite a git fanatic. I have used git on courses, in my job and with my hobby projects. I am familiar with different version control workflows. I also know how to work with branches, rebases and merges and I do not panic if something goes wrong.'
+    },
+    {
+        'title':'Linux',
+        'stars':5,
+        'description':'I have used mainly Linux on my laptops since 2009. I know how to work on Ubuntu, Debian, Fedora and CentOS (RedHat) -based systems. In my current job at Seravo, I have participated in administrating clusters of Linux servers.'
+    },
+]

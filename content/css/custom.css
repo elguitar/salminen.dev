@@ -1,0 +1,27 @@
+@media screen and (min-width: 1000px) {
+  article.cv {
+    max-width: 50%;
+  }
+  .cv_item .upper_row {
+    position: relative;
+  }
+  .cv_item .upper_row .upper_time,
+  .cv_item .upper_row .upper_stars {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+.cv_item .upper_row .upper_title {
+  margin-bottom: 0px;
+}
+
+.cv_item .upper_row .upper_time,
+.cv_item .upper_row .upper_stars {
+  margin-bottom: 0px;
+}
+
+.cv_item p {
+  margin-top: 5px;
+}
