@@ -11,23 +11,21 @@ I have tried AWS before, but, to be honest, I had a hard time grasping the conce
 
 ## Installing Terraform
 
-For whatever reason, Terraform is not available from the Fedora's repositories. I would prefer installing it from the repos. Then I would be (relatively) sure that it is build from the source (link here to github). 
+For whatever reason, Terraform is not available from the Fedora's repositories. I would prefer installing it from the repos. Then I would be (relatively) sure that it is build from the [source](https://github.com/hashicorp/terraform). 
 
-However, installing Terraform is possible only by downloading a zip and unzipping the binary from there. Simple :)
+However, installing Terraform is possible only by downloading a zip and unzipping the binary from there. 
 
-## Setting up AWS-cli
+## Setting up aws-cli
 
-When spinning servers up with Terraform, it obviously needs a permission to access your AWS account. This is easiest done with AWS-cli (link this).
+When spinning servers up with Terraform, it obviously needs a permission to access your AWS account. This is easiest done with [aws-cli](https://github.com/aws/aws-cli).
 
-Install AWS-cli with `pip3`:
+Install aws-cli with `pip3`:
 
 ```
 pip3 install awscli --user # Assuming user-installation just to be sure :)
 ```
 
-Then, follow [this guide](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html) to set up AWS cli. 
-
-(MAYBE JUST REMOVE THIS CHAPTER ITS STOPID)
+Then, follow [this guide](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html) to set up aws-cli. 
 
 ## Terraforming
 
@@ -65,4 +63,4 @@ I checked the AWS web console (https://eu-central-1.console.aws.amazon.com/ec2/v
 
 ## Conclusion
 
-I didn't really test the AWS in any way. However, I can say with confidence, that using Terraform is quite easy to grasp and the AWS-cli is a handy tool. I will probably try to do more of stuff like this in the future.
+I didn't really test the AWS in any way. However, I can say with confidence, that using Terraform is quite easy to grasp and the aws-cli is a handy tool. I will probably try to do more of stuff like this in the future.
