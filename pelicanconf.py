@@ -41,6 +41,7 @@ SOCIAL = (
           ('facebook', 'https://fb.com/elguitarpete'),
           ('github', 'https://github.com/elguitar'),
           ('linkedin','https://www.linkedin.com/in/petri-salminen/'),
+          ('twitter', 'https://twitter.com/PetriSalminen1'),
          )
 
 DEFAULT_PAGINATION = False
@@ -87,9 +88,9 @@ EDUCATION = [{
 
 WORK = [{
         'title':'Course Assistant',
-        'time':'2019 -',
+        'time':'2019 - 2020',
         'organization':'Tampere University',
-        'description':'Working as a course assistant on course: Basics for Business Data Analytics.'
+            'description':'Working as a course assistant on courses: Basics for Business Data Analytics and Ohjelmallinen sisällönhallinta (Programmatic Content Management).'
     },
     {
         'title':'Network Service Specialist',
@@ -113,12 +114,17 @@ IT_SKILLS = [{
     {
         'title':'R',
         'stars':4,
-        'description':'I started using R on a class of statistics. Lately, I have been learning tidyverse (especially dplyer and ggplot2). I also enjoy writing my hobby data science documents in Rmarkdown.'
+        'description':'I started using R on a class of statistics. Lately, I have been learning tidyverse (especially dplyer and ggplot2). I also have writed some of my hobby data science documents in Rmarkdown.'
     },
     {
         'title':'Ruby',
         'stars':4,
         'description':'Ruby is my main language at my current job at Seravo. I know the basics of the language and have a love-hate relationship with it.'
+    },
+    {
+        'title':'React',
+        'stars':3,
+        'description':'I can get my way around React and honestly I like React. Currently trying to understand Redux and Thunk.'
     },
     {
         'title':'C++',
