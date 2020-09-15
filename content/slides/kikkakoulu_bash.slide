@@ -1,0 +1,118 @@
+Title: Trick School - Terminal
+Author: Petri Salminen
+Template: slides
+Date: 2020-09-11 13:00
+Category: slides
+Summary: Presentation about tricks in terminal. Originally presented at Seravo Show & Tell 11.9.2020.
+
+<style>
+  .remark-slide-content p {
+    font-size: 25px;
+  }
+</style>
+
+# Moving 1/2
+
+To the start of a line:   `Ctrl+a`
+
+To the end of a line:     `Ctrl+e`
+
+---
+
+# Moving 2/2
+
+Letter at a time: `Ctrl+b/f`
+
+Word at a time:   `Alt+b/f`
+
+---
+
+# Clear the screen
+
+`Ctrl+l` (lowercase L)
+
+---
+
+# Emptying the line
+
+Towards the beginning: `Ctrl+u`
+
+Towards the end:       `Ctrl+k`
+
+Combos: 
+- `Ctrl+e` + `Ctrl+u`
+- `Ctrl+a` + `Ctrl+k`
+
+---
+
+# Modifying a long command
+
+`Ctrl+x+e`
+
+---
+
+# Controlling the command
+
+Pause   `Ctrl+s`
+
+Resume  `Ctrl+q`
+---
+
+# Previous directory
+
+--
+No, not `cd ..`. That is go UP a directory.
+
+--
+
+`cd -` works magically
+
+---
+
+# Browsing history
+
+Next command from history:     `Ctrl+n`
+Previous command from history: `Ctrl+p`
+
+---
+
+# Running from history
+
+Run the command: `!!`
+
+Run arbitrary history command: `!historynum`
+
+Reverse search: `Ctrl+r`
+
+---
+
+# Expansions
+
+`cp file.txt{,.bak}`
+
+is equivalent to
+
+`cp file.txt file.txt.bak`
+
+--
+
+Also, you can expand stuff like {1..10} and {a-z}:
+
+--
+
+`for i in {1..10}; do ...; done`
+
+---
+
+# For vim purists
+
+Bash has vi-mode!
+
+`set -o vi`
+
+---
+
+class: middle, center
+
+# That's it for me
+## Please share your own ideas!
