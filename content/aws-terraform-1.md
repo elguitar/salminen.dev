@@ -1,6 +1,7 @@
 Title: My first touch to Terraform and AWS 
 Date: 2019-10-21 20:41
 Modified: 2020-02-27 19:06
+Category: tech
 Slug: terraform-aws-1
 Authors: Petri Salminen
 Summary: I tried to grasp Terraform, AWS and AWS-cli at the same time. It was pretty confusing, but easily beats the AWS web console.

@@ -2,6 +2,7 @@ Title: How to ABRT
 Date: 2019-11-20 20:22
 Modified: 2019-11-20 20:22
 Slug: how-to-abrt 
+Category: tech
 Authors: Petri Salminen
 Summary: How to use ABRT program on Fedora and be a good citizen
 
