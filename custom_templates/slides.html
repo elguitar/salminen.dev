@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ article.title }}</title>
+    <meta charset="utf-8">
+    <style>
+      body {
+        font-family: 'open sans';
+      }
+      h1, h2, h3 {
+        font-family: 'open sans';
+        font-weight: normal;
+      }
+      .remark-slide-content {
+        background: #3e2f39;
+        color: white;
+      }
+      .remark-code, .remark-inline-code {
+        font-family: 'monospace';
+        background: white;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle
+
+# {{ article.title }}
+
+_{{ article.author }}_
+{{ article.date.year }}-{{ article.date.month }}-{{ article.date.day }}
+---
+
+{{ article.content }}
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({
+              ratio: '16:9',
+              countIncrementalSlides: false,
+      });
+    </script>
+  </body>
+</html>

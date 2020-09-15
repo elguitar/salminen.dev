@@ -58,6 +58,8 @@ EXTRA_PATH_METADATA = {
     'css/custom.css': {'path':'css/custom.css'}
 }
 
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["slide_reader"]
 CUSTOM_CSS = 'css/custom.css'
 
 DISABLE_URL_HASH=True
