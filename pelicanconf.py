@@ -20,7 +20,7 @@ CC_LICENSE = {
     'slug': 'by-sa'
 }
 
-COPYRIGHT_YEAR = 2019
+COPYRIGHT_YEAR = 2020
 TIMEZONE = 'Europe/Helsinki'
 
 DEFAULT_LANG = 'en'
