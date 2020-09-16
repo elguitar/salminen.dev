@@ -26,3 +26,15 @@ DELETE_OUTPUT_DIRECTORY = True
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
+GOOGLE_ADSENSE = {
+    'ca_id': 'ca-pub-7863135966387398',
+    'page_level_ads': False,
+    'ads': {},
+    #    'aside': '8752710348',
+    #    'main_menu': '',
+    #    'index_top': '',
+    #    'index_bottom': '1124188687',
+    #    'article_top': '',
+    #    'article_bottom': '4843941849',
+    #}
+}
