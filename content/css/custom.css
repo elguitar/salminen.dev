@@ -10,12 +10,18 @@
     position: absolute;
     right: 0;
     top: 0;
-    padding-top: 5px; /* Fix misalignment */
   }
+}
+
+.cv_item {
+  padding: 1.25rem;
+  background: #F3F3F3;
+  margin-bottom: 10px;
 }
 
 .cv_item .upper_row .upper_title {
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .cv_item .upper_row .upper_time,
@@ -25,4 +31,5 @@
 
 .cv_item p {
   margin-top: 5px;
+  margin-bottom: 0px;
 }
