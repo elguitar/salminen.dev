@@ -9,7 +9,7 @@ SITESUBTITLE = 'Open Sourcerer, Data Wizard'
 SITEDESCRIPTION = "Petri's thoughts about life and tech"
 
 SITEURL = 'http://localhost:8000'
-SITELOGO = SITEURL + '/images/petri_square.jpg'
+SITELOGO = SITEURL + '/images/petri_square.webp'
 FAVICON = SITEURL + '/images/favicon.ico'
 
 PATH = 'content'

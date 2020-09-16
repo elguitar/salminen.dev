@@ -12,7 +12,7 @@ from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
 SITEURL = 'https://salminen.dev'
-SITELOGO = SITEURL + '/images/petri_square.jpg'
+SITELOGO = SITEURL + '/images/petri_square.webp'
 FAVICON = SITEURL + '/images/favicon.ico'
 
 RELATIVE_URLS = False
