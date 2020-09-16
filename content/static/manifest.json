@@ -1,0 +1,18 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Petri's Corner",
+    "short_name": "Petri's Corner",
+    "scope": "/",
+    "display": "browser",
+    "start_url": "https://salminen.dev/",
+    "background_color": "transparent",
+    "theme_color": "transparent",
+    "description": "Petri's thoughts about life and tech",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [],
+    "url": "https://salminen.dev",
+    "screenshots": []
+}

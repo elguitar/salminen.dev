@@ -52,10 +52,12 @@ DEFAULT_PAGINATION = False
 # Allow overriding of Theme templates
 THEME_TEMPLATES_OVERRIDES = ['custom_templates']
 
-STATIC_PATHS = ['css', 'images']
+STATIC_PATHS = ['css', 'images', 'static']
 
 EXTRA_PATH_METADATA = {
-    'css/custom.css': {'path':'css/custom.css'}
+    'css/custom.css': {'path':'css/custom.css'},
+    'static/manifest.json': {'path':'manifest.json'},
+    'static/pwabuilder-sw.js': {'path':'pwabuilder-sw.js'},
 }
 
 PLUGIN_PATHS = ["plugins"]
@@ -64,6 +66,7 @@ CUSTOM_CSS = 'css/custom.css'
 
 DISABLE_URL_HASH=True
 
+USE_GOOGLE_FONTS=False
 THEME='Flex'
 
 # For the CV
