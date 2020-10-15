@@ -12,7 +12,7 @@ from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
 SITEURL = 'https://salminen.dev'
-SITELOGO = SITEURL + '/images/petri_square.webp'
+SITELOGO = SITEURL + '/images/petri_square-140w.webp'
 FAVICON = SITEURL + '/images/favicon.ico'
 
 RELATIVE_URLS = False
@@ -26,6 +26,7 @@ DELETE_OUTPUT_DIRECTORY = True
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
+"""
 GOOGLE_ADSENSE = {
     'ca_id': 'ca-pub-7863135966387398',
     'page_level_ads': False,
@@ -38,3 +39,4 @@ GOOGLE_ADSENSE = {
     #    'article_bottom': '4843941849',
     #}
 }
+"""

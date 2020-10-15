@@ -9,7 +9,7 @@ SITESUBTITLE = 'Open Sourcerer, Data Wizard'
 SITEDESCRIPTION = "Petri's thoughts about life and tech"
 
 SITEURL = 'http://localhost:8000'
-SITELOGO = SITEURL + '/images/petri_square.webp'
+SITELOGO = SITEURL + '/images/petri_square-140w.webp'
 FAVICON = SITEURL + '/images/favicon.ico'
 
 PATH = 'content'
@@ -47,7 +47,7 @@ SOCIAL = (
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True 
+#RELATIVE_URLS = True
 
 # Allow overriding of Theme templates
 THEME_TEMPLATES_OVERRIDES = ['custom_templates']
@@ -75,7 +75,7 @@ EDUCATION = [{
         'title':'Civil Engineer',
         'time':'2018 - (Ongoing)',
         'organization':'Tampere University',
-        'description':'1st Major: Information management and systems<br>2nd Major: Information analytics<br>Completed: 272 credits / 314 credits',
+        'description':'Master\'s Thesis: Towards Smart Building - Utilizing sensor data and building information model in a multi-purpose environment<br>1st Major: Information management and systems<br>2nd Major: Information analytics<br>Completed: 272 credits / 314 credits',
     },
     {
         'title':'Bachelor of Science (Technology)',
@@ -91,17 +91,24 @@ EDUCATION = [{
     },
 ]
 
-WORK = [{
-        'title':'Course Assistant',
+WORK = [
+    {
+        'title': 'Software Development Lead',
+        'time':'2020 -',
+        'organization':'Seravo Oy',
+        'description':'Designing software, strategic planning, team leading. Also, the same stuff as Network Service Specialist (see below).'
+    },
+    {
+        'title':'Course Assistant, Master\'s Thesis Worker',
         'time':'2019 - 2020',
         'organization':'Tampere University',
-            'description':'Working as a course assistant on courses: Basics for Business Data Analytics and Ohjelmallinen sisällönhallinta (Programmatic Content Management).'
+        'description':'Working as a course assistant on courses: Basics for Business Data Analytics and Ohjelmallinen sisällönhallinta (Programmatic Content Management).'
     },
     {
         'title':'Network Service Specialist',
-        'time':'2017 -',
+        'time':'2017 - 2020',
         'organization':'Seravo Oy',
-        'description':'Developing internal tools, solving customers\' technical problems, customer service, data analytics, cheering people up'
+        'description':'Developing internal tools, solving customers\' technical problems, customer service, data analytics, cheering people up.'
     },
     {
         'title':'Conscientious Man',
@@ -126,11 +133,7 @@ IT_SKILLS = [{
         'stars':4,
         'description':'Ruby is my main language at my current job at Seravo. I know the basics of the language and have a love-hate relationship with it.'
     },
-    {
-        'title':'React',
-        'stars':3,
-        'description':'I can get my way around React and honestly I like React. Currently trying to understand Redux and Thunk.'
-    },
+
     {
         'title':'C++',
         'stars':3,
@@ -161,6 +164,17 @@ IT_SKILLS = [{
         'stars':3,
         'description':'These are not particularly my expertise, but I think that every programmer should no some HTML, CSS and Javascript. I confont problems with these in my job, since I occasionally solve problems with websites.'
     },
+    {
+        'title':'React',
+        'stars':3,
+        'description':'I can get my way around React and honestly I like React. Currently trying to understand Redux and Thunk.'
+    },
+    {
+        'title':'Vue.js',
+        'stars':2,
+        'description':'I managed to do one hobby project with Vue.js. It seems quite simple, but I now that there is more to that iceberg.'
+    },
+
     {
         'title':'Git',
         'stars':5,
