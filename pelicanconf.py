@@ -21,6 +21,9 @@ CC_LICENSE = {
 }
 
 COPYRIGHT_YEAR = 2020
+COPYRIGHT_NAME = "Petri Salminen"
+GITHUB_CORNER_URL = "https://github.com/elguitar/salminen.dev"
+
 TIMEZONE = 'Europe/Helsinki'
 
 DEFAULT_LANG = 'en'
@@ -56,8 +59,6 @@ STATIC_PATHS = ['css', 'images', 'static']
 
 EXTRA_PATH_METADATA = {
     'css/custom.css': {'path':'css/custom.css'},
-    'static/manifest.json': {'path':'manifest.json'},
-    'static/pwabuilder-sw.js': {'path':'pwabuilder-sw.js'},
 }
 
 PLUGIN_PATHS = ["plugins"]

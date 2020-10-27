@@ -1,4 +1,4 @@
-Title: My first touch to Terraform and AWS 
+Title: My first touch to Terraform and AWS
 Date: 2019-10-21 20:41
 Modified: 2020-02-27 19:06
 Category: tech
