@@ -175,7 +175,31 @@ IT_SKILLS = [{
         'stars':2,
         'description':'I managed to do one hobby project with Vue.js. It seems quite simple, but I now that there is more to that iceberg.'
     },
-
+    {
+        'title':'Apache Airflow',
+        'stars':3,
+        'description':'I have built [Spotify pipeline with Apache Airflow](https://github.com/elguitar/DataSciencePortfolio/tree/main/SpotifyPipeline) in order to test Apache Airflow in practice. It seems fun, but I believe that in most situations cloud solutions will be the better bet.',
+    },
+    {
+        'title':'AWS EC2',
+        'stars':4,
+        'description':'I can orchestrate, administrate and do all kinds of stuff with EC2 instances. I would like to learn more about the GPU instances.',
+    },
+    {
+        'title':'AWS Glue',
+        'stars':1,
+        'description':"This is what I am currently studying. It does not seem hard, because of my prior knowledge to ETL and Spark."
+    },
+    {
+        'title':'AWS S3',
+        'stars':4,
+        'description':"There's really not much to learn about S3. I know what it is and what it does. Access control is something that I would like to strengthen my abilities with."
+    },
+    {
+        'title':'Docker',
+        'stars':4,
+        'description':'I know my way around docker and docker compose. Next up: k8s!'
+    },
     {
         'title':'Git',
         'stars':5,
@@ -186,4 +210,11 @@ IT_SKILLS = [{
         'stars':5,
         'description':'I have used mainly Linux on my laptops since 2009. I know how to work on Ubuntu, Debian, Fedora and CentOS (RedHat) -based systems. In my current job at Seravo, I have participated in administrating clusters of Linux servers.'
     },
+    {
+        'title':'Apache Spark',
+        'stars':3,
+        'description':"I can create a Spark cluster and run DataFrame transformations, analysis and machine learning. I have worked with Scala, but I strongly believe that PySpark won't be a problem. Streaming would be cool to learn."
+    },
+
+
 ]
