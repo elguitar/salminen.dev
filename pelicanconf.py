@@ -73,13 +73,13 @@ THEME='Flex'
 # For the CV
 
 EDUCATION = [{
-        'title':'Civil Engineer',
-        'time':'2018 - (Ongoing)',
+        'title':'Master of Science (Tech)',
+        'time':'2020',
         'organization':'Tampere University',
-        'description':'Master\'s Thesis: Towards Smart Building - Utilizing sensor data and building information model in a multi-purpose environment<br>1st Major: Information management and systems<br>2nd Major: Information analytics<br>Completed: 272 credits / 314 credits',
+        'description':'Master\'s Thesis: Towards Smart Building - Utilizing sensor data and building information model in a multi-purpose environment<br>1st Major: Information management and systems<br>2nd Major: Information analytics',
     },
     {
-        'title':'Bachelor of Science (Technology)',
+        'title':'Bachelor of Science (Tech)',
         'time':'2018',
         'organization':'Tampere University of Technology',
         'description':'Bachelor\'s Thesis: Data Analytics in Accordance with the European Union\'s General Data Protection Regulation<br>Major: Information and Knowledge Management<br>Minor: Software systems',
